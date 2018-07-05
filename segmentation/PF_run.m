@@ -1,10 +1,9 @@
 %Place Field Mapping
 
-%{
+
 green = [Green(:,1:9780) Green(:,13501:end)];
 red = [Red(:,1:9780) Red(:,13501:end)];
 xy = [xy_summary(1:5403,:); xy_summary(7205:end,:)];
-%}
 
 DECONV=0;
 thr=30;
