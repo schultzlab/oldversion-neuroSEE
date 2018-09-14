@@ -20,6 +20,7 @@
 %       CaFs: sampling frequency of two-photon calcium imaging
 %       trackFs: sampling frequency of the tracker
 %       mode: 1 if 1d, 2 if 2d
+%       phi: polar coordinates 
 %   OUTPUTS:
 %       Rmap: rate map
 %       occMap: occupancy map
