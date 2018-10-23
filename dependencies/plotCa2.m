@@ -40,8 +40,8 @@ plot([0 1],[0 0],'k','linewidth',2);
 hold on
 plot([0 0],[0 01],'k','linewidth',2);
 hold off
-%text(0.5,0.05,'1.0 \Delta R/R');
-%text(0.5,0,'10 sec');
+text(0.5,0.05,'1.0 \Delta R/R');
+text(0.5,0,'10 sec');
 set(gca,'box','off');
 set(gca,'visible','off');
 
