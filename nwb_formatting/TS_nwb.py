@@ -8,16 +8,16 @@
 
 # Python Imports
 import datetime
-import time
-import h5py
-import numpy as np
-import glob
+# import time
+# import h5py
+# import numpy as np
+# import glob
 import os
 import pandas as pd
 from openpyxl import Workbook, load_workbook, worksheet
 
 # matlab Imports
-import matlab.engine
+# import matlab.engine
 
 # NWB imports
 from pynwb import NWBFile, get_manager
@@ -220,7 +220,9 @@ def twop_ts(data_sheet, updated_imaging_times_list, nwb_file, twop_folders, imag
             exp_data = get_exp_data(data_sheet)
             source = 'Licensee: ' + exp_data.at['Licensee', 'Unnamed: 1']
 
-            nwb_file.create_epoch(epoch_name, tif_file, 2.0, 4.0, [epoch_name],                                   updated_imaging_times_list.loc[epoch_name, 'Imaging details'] + '. ' +                                   updated_imaging_times_list.loc[epoch_name, 'Remarks'])
+            nwb_file.create_epoch(epoch_name, tif_file, 2.0, 4.0, [epoch_name],
+                                  updated_imaging_times_list.loc[epoch_name, 'Imaging details'] + '. ' +
+                                  updated_imaging_times_list.loc[epoch_name, 'Remarks'])
 
             green_ts = TimeSeries(epoch_name + ' ' + 'green_timeseries',  # names the TS in the epoch
                               source,
