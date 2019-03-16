@@ -1,0 +1,13 @@
+[Recording settings]
+Researcher = "Researcher"
+Track name = "SavedTrack-2018-10-16-10-11-40.csv"
+Amount of midfield segments = 1
+Amount of border segments = 8
+Center segment outer radius, mm = 5
+Midfield segments outer radius, mm = 120
+Midfield segments starting angle = 0
+Border segments starting angle = 186
+Cage diameter, mm = 325
+Vertical offset = 0.000000
+Mouse snout orientation swap? = FALSE
+IO ports configuration = "[12,3,1,0,0,0]"

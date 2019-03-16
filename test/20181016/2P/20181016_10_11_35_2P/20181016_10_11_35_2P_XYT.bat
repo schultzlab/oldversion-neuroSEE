@@ -1,0 +1,1 @@
+"C:\Program Files\ImageJ\ImageJ.exe" -eval "run('Raw...', 'open=%cd:\=\\%\\20181016_10_11_35_2P_XYT.raw image=[16-bit Unsigned] width=512 height=512 offset=0 number=14840 gap=0 use');'
