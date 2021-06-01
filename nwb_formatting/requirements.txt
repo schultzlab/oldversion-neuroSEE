@@ -13,5 +13,5 @@ pytz==2018.6
 requests==2.20.0
 ruamel.yaml==0.15.74
 six==1.11.0
-urllib3==1.24
+urllib3==1.26.5
 xlrd==1.1.0
